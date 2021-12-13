@@ -4,6 +4,17 @@
 # ]
 #
 
+"""
+override the serializer that is used by the social login authentication
+JWT_TOKEN_CLAIMS_SERIALIZER - A custom JWT Claim serializer.
+Default is rest_framework_simplejwt.serializers.TokenObtainPairSerializer
+see moore at https://dj-rest-auth.readthedocs.io/en/latest/configuration.html
+
+"""
+REST_AUTH_SERIALIZERS = {
+    'JWT_TOKEN_CLAIMS_SERIALIZER': 'users.api.auth.serializers.MyTokenObtainPairSerializer'
+}
+
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'SCOPE': [
