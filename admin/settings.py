@@ -83,6 +83,8 @@ TEMPLATES = [
     },
 ]
 
+
+
 WSGI_APPLICATION = 'admin.wsgi.application'
 
 # Database
@@ -136,3 +138,14 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'cdn', 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'cdn', 'media')
+
+
+try:
+    from .conf.rest_settings import *
+except ImportError:
+    pass
+
+try:
+    from .conf.all_auth_settings import *
+except ImportError:
+    pass

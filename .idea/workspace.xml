@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eadffb27-a3ac-4da5-b29f-ca12d6ebf07c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/users/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/api/social/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/api/social/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/api/social/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/conf/all_auth_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/all_auth_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/conf/rest_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/rest_settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +92,22 @@
       <updated>1639361937326</updated>
       <workItem from="1639361940976" duration="1591000" />
       <workItem from="1639376221823" duration="4803000" />
+      <workItem from="1639390459210" duration="2738000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
