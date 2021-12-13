@@ -37,14 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
 
-    'allauth',
-    'allauth.account',
-    'rest_auth.registration',
     'rest_framework',
     'rest_framework.authtoken',
-
+    'rest_auth.registration',
     'rest_auth',
-
+    'allauth',
+    'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.twitter',
